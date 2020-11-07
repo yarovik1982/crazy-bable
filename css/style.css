@@ -1,0 +1,134 @@
+body{
+	width: 100%;
+}
+.container {
+	margin: 20px auto;
+	width: 900px;
+	height: 600px;
+	background-color: rgba(0,0,0, .5);
+}
+.text-control {
+	padding-left: 50px;
+}
+h2{
+	color: #fff;
+	opacity: 0.8;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+li{
+	padding: 5px 0;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 16px;
+	opacity: 0.8;
+}
+.container__trek {
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	/*padding: 0 50px;*/
+	border-bottom: 2px solid #fff;
+	position: relative;
+	overflow: hidden;
+}
+.herro-bable {
+	position: relative;
+	left: 0;
+	top: 370px;
+	/*bottom: 0;*/
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+.active{
+	transform: translateX(5px);
+}
+.trek__wall {
+	display: flex;
+	width: 800px;
+	height: 25px;
+	position: relative;
+	top: 345px;
+	right: 0;
+	animation-name: wallGo;
+	animation-duration: 20s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;  
+}
+.wall-1 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	/*left: 800px;*/
+}
+.wall-2 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-3 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-4 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-5 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-6 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-7 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+/*.wall-8 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-9 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}
+.wall-10 {
+	width: 20px;
+	height: 25px;
+	background-color: red;
+	top: 0;
+	margin-left: 100px;
+}*/
+@keyframes wallGo {
+	from{left: 700px;}
+	to{left: 0px;}
+	
+}
